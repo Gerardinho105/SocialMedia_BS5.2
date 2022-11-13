@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byenvini sou Nou Konekte</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img src="index.png" alt="people connect" width="50" height="50"
+          /></a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Cheche yon moun"
+              aria-label="Search"
+            />
+          </form>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Cheche yon moun"
+                aria-label="Search"
+              />
+            </form> -->
+            <div class="dropdown">
+              <a href="#">
+                <img
+                  src="/logout.png"
+                  alt="logout button"
+                  width="50"
+                  height="50" />
+                <img
+                  src="/angle-small-down.svg"
+                  alt="arrow down"
+                  width="30"
+                  height="30"
+              /></a>
+              <div class="dropdown-content">
+                <a href="#">Pwofil</a>
+                <a href="#">Paramet</a>
+                <a href="#">Dekonekte</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="main-container">
+      <div class="container-1">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Menu 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Menu 4</a>
+          </li>
+          <hr class="separator"/>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Menu 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Menu 4</a>
+          </li>
+        </ul>
+
+        <div class="languages"> <a href="#"> English </a> <a href="#"> Kreyol </a> <br>
+           <a href="#"> French </a>  <a href="#"> Spanish </a>
+        </div>
+        
+      </div>
+      <div class="container-2">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Pataje ak fanmi"
+            ></textarea>
+          </div>
+          <div class="post-btn">
+            <img
+              src="camera.png"
+              alt="camera button"
+              width="50"
+              height="50px"
+            />
+
+            <button type="submit" class="btnposte" onclick= "getConfirmation()" >Poste</button>
+          </div>
+        </form>
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">First Name Last Name Relative </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h5 class="card-title">First Name Last Name Relative </h5>
+            <img src="family.webp"  alt="family picture" width="200" height="100">
+           
+          </div>
+        </div>
+      
+      </div>
+      <div class="container-3">
+        <div>
+          <ul>
+            <li>
+              <h3>Valerio Canez</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <h3>Pub 2</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <h3>Code9Class</h3>
+              <p></p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+            <li>
+              <h3>Pub 4</h3>
+              <p></p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container-4">
+        <h4>Istwa Fanmi an</h4>
+        <div class="row">
+          <div class="col">
+            <img src="index.png" alt="" width="50" height="50" />
+          </div>
+          <div class="col">
+            <img src="index.png" alt="" width="50" height="50" />
+          </div>
+          <div class="w-100"></div>
+          <div class="col">
+            <img src="index.png" alt="" width="50" height="50" />
+          </div>
+          <div class="col">
+            <img src="index.png" alt="" width="50" height="50" />
+          </div>
+        </div>
+        <form>
+          <div class="chat-box">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea
+              class="form-control-chat"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Komante"
+            ></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+          </div>
+         
+        </form>
+      </div>
+    </div>
+  
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="konfimasyon_post.js"></script>
+  </body>
+</html>
